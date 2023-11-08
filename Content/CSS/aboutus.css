@@ -1,0 +1,27 @@
+.bodySection {
+    width: 100%;
+}
+
+.detailsSection {
+    width: 70%;
+    font-size: 24px;
+    font-family: math;
+}
+
+.bodyAboutUs div {
+    padding-top: 70px;
+}
+
+.imageSection {
+    width: 30%;
+}
+
+.imageSection img {
+    border-radius: 3%;
+}
+
+
+.imageSection,
+.detailsSection {
+    height: 280px;
+}

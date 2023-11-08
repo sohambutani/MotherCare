@@ -1,0 +1,194 @@
+/* header common */
+.headerSection {
+    width: 100%;
+    height: 30%;
+    background: #50adc0;
+}
+
+.headerLeft {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.headerRight {
+    width: 80%;
+    float: right;
+}
+
+.companyDiv {
+    height: 80%;
+    width: 90%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 90px;
+    color: aliceblue;
+    font-family: cursive;
+    float: left;
+}
+
+.userDiv {
+    height: 80%;
+    width: 9%;
+    color: aliceblue;
+    float: left;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.navDiv {
+    height: 20%;
+}
+
+.navDiv div {
+    width: 20%;
+    float: left;
+}
+
+/* footer common */
+.footerSection {
+    float: left;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    background-color: #312f2f;
+}
+
+.footerleft {
+    height: 80%;
+    width: 25%;
+    color: white;
+    float: left;
+
+}
+
+.footermiddle {
+    height: 100%;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+}
+
+.footerright {
+    height: 100%;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+}
+
+.footerright img {
+    padding-left: 20px;
+}
+
+/* Header navigation button css */
+.glow-on-hover {
+    width: 80%;
+    height: 90%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+/* Header navigation button css */
+/* 
+
+.btn {
+    width: 80%;
+    height: 90%;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  } */
