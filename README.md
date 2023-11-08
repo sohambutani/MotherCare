@@ -1,4 +1,4 @@
-#MotherCare
+# MotherCare
 
 Children hospital Website using HTML,CSS,JS,Bootstrap,PHP,MYSQL
 
@@ -7,7 +7,7 @@ Children hospital Website using HTML,CSS,JS,Bootstrap,PHP,MYSQL
 2.	Any Editor (Preferably VS Code or Sublime Text)
 3.	Any web browser with latest version
 
-#Languages and Tecnologies Used
+# Languages and Tecnologies Used
 
 1.	HTML5/CSS3
 2.	JavaScript (to create dynamically updating content)
@@ -16,7 +16,7 @@ Children hospital Website using HTML,CSS,JS,Bootstrap,PHP,MYSQL
 5.	Php
 6.	MySQL (An RDBMS that uses SQL)
 
-#Steps to run the project in your machine
+# Steps to run the project in your machine
 
 1.	Download and install XAMPP in your machine
 2.	Clone or download the repository
@@ -28,7 +28,7 @@ Children hospital Website using HTML,CSS,JS,Bootstrap,PHP,MYSQL
 8.	Open a new tab and type 'localhost/foldername' in the url of your browser
 9.	Hurray! That's it!
     
-#DataBase Structures
+# DataBase Structures
 
 For Appointment Table
 ![image](https://github.com/sohambutani/MotherCare/assets/145127387/5cfe1ff2-b6cf-44b5-9859-603a4d91395e)
